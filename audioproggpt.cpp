@@ -1,5 +1,7 @@
 #include <iostream>
 #include <vector>
+#include <string>
+#include <cmath>
 #include <SFML/Graphics.hpp>
 
 // Function to select ASIO driver
@@ -127,9 +129,7 @@ int main() {
 
     return 0;
 }
-#include <string>
-#include <cmath>
-#include <SFML/Graphics.hpp>
+
 // Function to select ASIO driver
 void selectASIODriver(const std::string& driverName) {
     // TODO: Implement driver selection logic
