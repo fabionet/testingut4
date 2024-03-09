@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ripfa\\Documents\\GitCollab\\GitHubHubers\\testingut4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E2432CD-AE61-4499-98F9-1B3F42E6A086}|AIAudioGenTest.vcxproj|C:\\Users\\ripfa\\Documents\\GitCollab\\GitHubHubers\\testingut4\\audioproggpt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E2432CD-AE61-4499-98F9-1B3F42E6A086}|AIAudioGenTest.vcxproj|solutionrelative:audioproggpt.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "audioproggpt.cpp",
+              "DocumentMoniker": "C:\\Users\\ripfa\\Documents\\GitCollab\\GitHubHubers\\testingut4\\audioproggpt.cpp",
+              "RelativeDocumentMoniker": "audioproggpt.cpp",
+              "ToolTip": "C:\\Users\\ripfa\\Documents\\GitCollab\\GitHubHubers\\testingut4\\audioproggpt.cpp",
+              "RelativeToolTip": "audioproggpt.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-09T18:35:33.004Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

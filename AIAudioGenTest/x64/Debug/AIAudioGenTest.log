@@ -1,0 +1,37 @@
+﻿  audioproggpt.cpp
+  Ftp.cpp
+  Island.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\audioproggpt.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Graphics.hpp': No such file or directory
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\ftp\Ftp.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Network.hpp': No such file or directory
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\island\Island.cpp(6,10): error C1083: Non è possibile aprire il file inclusione: 'stb_perlin.h': No such file or directory
+  Joystick.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\joystick\Joystick.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Graphics.hpp': No such file or directory
+  OpenGL.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\opengl\OpenGL.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Graphics.hpp': No such file or directory
+  Shader.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\shader\Effect.hpp(7,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Graphics.hpp': No such file or directory
+  Sockets.cpp
+  (compilazione del file di origine 'sfml/examples/shader/Shader.cpp')
+  
+  TCP.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\sockets\TCP.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Network.hpp': No such file or directory
+  UDP.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\sockets\UDP.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Network.hpp': No such file or directory
+  Sound.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\sound\Sound.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Audio.hpp': No such file or directory
+  SoundCapture.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\sound_capture\SoundCapture.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Audio.hpp': No such file or directory
+  Tennis.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\tennis\Tennis.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Graphics.hpp': No such file or directory
+  Client.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\voip\Client.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Audio.hpp': No such file or directory
+  Server.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\voip\Server.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Audio.hpp': No such file or directory
+  VoIP.cpp
+  Vulkan.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\vulkan\Vulkan.cpp(6,10): error C1083: Non è possibile aprire il file inclusione: 'vulkan.h': No such file or directory
+  Win32.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\win32\Win32.cpp(5,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Graphics.hpp': No such file or directory
+  Window.cpp
+C:\Users\ripfa\Documents\GitCollab\GitHubHubers\testingut4\sfml\examples\window\Window.cpp(4,10): error C1083: Non è possibile aprire il file inclusione: 'SFML/Window.hpp': No such file or directory
+  Generazione del codice in corso...
