@@ -1,6 +1,205 @@
 #include <iostream>
+#include <vector>
+#include <SFML/Graphics.hpp>
+
+// Function to select ASIO driver
+void selectASIODriver(const std::string& driverName) {
+    // TODO: Implement driver selection logic
+    std::cout << "Selected ASIO driver: " << driverName << std::endl;
+}
+
+// Function to select input channel
+void selectInputChannel(int channel) {
+    // TODO: Implement input channel selection logic
+    std::cout << "Selected input channel: " << channel << std::endl;
+}
+
+// Function to select output channel
+void selectOutputChannel(int channel) {
+    // TODO: Implement output channel selection logic
+    std::cout << "Selected output channel: " << channel << std::endl;
+}
+
+int main() {
+    // Initialize input, output, and gain variables
+    float input = 0.0f;
+    float output = 0.0f;
+    float gain = 1.0f;
+
+    // Create SFML window
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Audio Program");
+
+    // Create SFML text for gain label
+    // ...
+
+    // Create SFML rectangle shape for gain knob
+    // ...
+
+    // Create SFML text for input label
+    // ...
+
+    // Create SFML rectangle shape for input meter
+    // ...
+
+    // Create SFML text for output label
+    // ...
+
+    // Create SFML rectangle shape for output meter
+    // ...
+
+    // Create SFML text for audio panel button
+    sf::Text audioPanelButton;
+    audioPanelButton.setFont(font);
+    audioPanelButton.setCharacterSize(24);
+    audioPanelButton.setString("AUDIO PANEL");
+    audioPanelButton.setPosition(20, 300);
+
+    // Create SFML text for input channel label
+    sf::Text inputChannelLabel;
+    inputChannelLabel.setFont(font);
+    inputChannelLabel.setCharacterSize(24);
+    inputChannelLabel.setString("Input Channel: ");
+    inputChannelLabel.setPosition(20, 100);
+
+    // Create SFML text for output channel label
+    sf::Text outputChannelLabel;
+    outputChannelLabel.setFont(font);
+    outputChannelLabel.setCharacterSize(24);
+    outputChannelLabel.setString("Output Channel: ");
+    outputChannelLabel.setPosition(20, 150);
+
+    // Create SFML text for input channel selection
+    sf::Text inputChannelSelection;
+    inputChannelSelection.setFont(font);
+    inputChannelSelection.setCharacterSize(24);
+    inputChannelSelection.setString("1");
+    inputChannelSelection.setPosition(200, 100);
+
+    // Create SFML text for output channel selection
+    sf::Text outputChannelSelection;
+    outputChannelSelection.setFont(font);
+    outputChannelSelection.setCharacterSize(24);
+    outputChannelSelection.setString("1");
+    outputChannelSelection.setPosition(200, 150);
+
+    // Main program loop
+    while (window.isOpen()) {
+        // ...
+
+        // Handle button click event
+        else if (event.type == sf::Event::MouseButtonPressed) {
+            if (event.mouseButton.button == sf::Mouse::Left) {
+                sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
+                if (audioPanelButton.getGlobalBounds().contains(mousePosition.x, mousePosition.y)) {
+                    // Open audio panel to select ASIO driver, input channel, and output channel
+                    std::string selectedDriver = "ASIO Driver"; // Replace with actual driver selection logic
+                    int selectedInputChannel = std::stoi(inputChannelSelection.getString());
+                    int selectedOutputChannel = std::stoi(outputChannelSelection.getString());
+                    selectASIODriver(selectedDriver);
+                    selectInputChannel(selectedInputChannel);
+                    selectOutputChannel(selectedOutputChannel);
+                }
+            }
+        }
+
+        // ...
+
+        // Draw audio panel button
+        window.draw(audioPanelButton);
+
+        // Draw input channel label
+        window.draw(inputChannelLabel);
+
+        // Draw output channel label
+        window.draw(outputChannelLabel);
+
+        // Draw input channel selection
+        window.draw(inputChannelSelection);
+
+        // Draw output channel selection
+        window.draw(outputChannelSelection);
+
+        // ...
+
+        // Update the window
+        window.display();
+    }
+
+    return 0;
+}
+#include <string>
 #include <cmath>
 #include <SFML/Graphics.hpp>
+// Function to select ASIO driver
+void selectASIODriver(const std::string& driverName) {
+    // TODO: Implement driver selection logic
+    std::cout << "Selected ASIO driver: " << driverName << std::endl;
+}
+
+int main() {
+    // Initialize input, output, and gain variables
+    float input = 0.0f;
+    float output = 0.0f;
+    float gain = 1.0f;
+
+    // Create SFML window
+    sf::RenderWindow window(sf::VideoMode(800, 600), "Audio Program");
+
+    // Create SFML text for gain label
+    // ...
+
+    // Create SFML rectangle shape for gain knob
+    // ...
+
+    // Create SFML text for input label
+    // ...
+
+    // Create SFML rectangle shape for input meter
+    // ...
+
+    // Create SFML text for output label
+    // ...
+
+    // Create SFML rectangle shape for output meter
+    // ...
+
+    // Create SFML text for audio panel button
+    sf::Text audioPanelButton;
+    audioPanelButton.setFont(font);
+    audioPanelButton.setCharacterSize(24);
+    audioPanelButton.setString("AUDIO PANEL");
+    audioPanelButton.setPosition(20, 300);
+
+    // Main program loop
+    while (window.isOpen()) {
+        // ...
+
+        // Handle button click event
+        else if (event.type == sf::Event::MouseButtonPressed) {
+            if (event.mouseButton.button == sf::Mouse::Left) {
+                sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
+                if (audioPanelButton.getGlobalBounds().contains(mousePosition.x, mousePosition.y)) {
+                    // Open audio panel to select ASIO driver
+                    std::string selectedDriver = "ASIO Driver"; // Replace with actual driver selection logic
+                    selectASIODriver(selectedDriver);
+                }
+            }
+        }
+
+        // ...
+
+        // Draw audio panel button
+        window.draw(audioPanelButton);
+
+        // ...
+
+        // Update the window
+        window.display();
+    }
+
+    return 0;
+}
+
 
 // Function to process audio data with gain
 float processAudio(float input, float gain) {
