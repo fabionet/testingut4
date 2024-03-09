@@ -1,16 +1,17 @@
-#include <iostream>
-#include <vector>
-#include <string>
-#include <cmath>
-#include <SFML/Graphics.hpp>    // Include the SFML graphics header for drawing shapes and text
-#include <SFML/Window.hpp>
-#include <SFML/System.hpp>
-#include <SFML/Audio.hpp>
-#include <SFML/Network.hpp>
-#include <SFML/OpenGL.hpp>
-#include <SFML/Audio/SoundBuffer.hpp>
-
+#include <iostream>                      // Include the standard C++ library for input/output
+#include <vector>                               // Include the standard C++ library for vectors
+#include <string>                               // Include the standard C++ library for strings
+#include <cmath>                                // Include the standard C++ library for mathematical functions
+#include "SFML/include/SFML/Graphics.hpp"    // Include the SFML graphics header for drawing shapes and text
+/*#include "SFML/include/SFML/Window.hpp"         // Include the SFML window header for creating windows
+#include "SFML/include/SFML/System.hpp"          // Include the SFML system header for time-related functions
+#include "SFML/include/SFML/Audio.hpp"          // Include the SFML audio header for audio
+#include "SFML/include/SFML/Network.hpp"        // Include the SFML network header for network
+#include "SFML/include/SFML/OpenGL.hpp"        // Include the SFML OpenGL header for OpenGL
+#include "SFML/include/SFML/Audio/SoundBuffer.hpp"           // Include the SFML audio header for audio
+#include "SFML/include/SFML/Audio/Sound.hpp" */             // Include the SFML audio header for audio
 // Function to select ASIO driver
+
 void selectASIODriver(const std::string& driverName) {
     // TODO: Implement driver selection logic
     std::cout << "Selected ASIO driver: " << driverName << std::endl;

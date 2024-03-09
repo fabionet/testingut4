@@ -38,11 +38,11 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [
     "${workspaceFolder}/**",
-    "SFML/lib/**"
+    "c://Program Files/SFML/lib/**"
   ],
   "C_Cpp_Runner.includePaths": [
     "${workspaceFolder}/**",
-    "SFML/include/**"
+    "c://Program Files/SFML/include/**"
   ],
   "C_Cpp_Runner.includeSearch": [
     "*",
@@ -61,5 +61,6 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "cmake.options.statusBarVisibility": "visible"
 }

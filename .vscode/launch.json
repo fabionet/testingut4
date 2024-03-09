@@ -1,6 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
+  
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppvsdbg",
@@ -9,7 +10,7 @@
       "stopAtEntry": false,
       "console": "externalTerminal",
       "cwd": "c:/Users/ripfa/Documents/GitCollab/GitHubHubers/testingut4",
-      "program": "c:/Users/ripfa/Documents/GitCollab/GitHubHubers/testingut4/build/Debug/outDebug"
+      "program": "c:/Users/ripfa/Documents/GitCollab/GitHubHubers/testingut4/build/Debug/outDebug/debug.exe"
     }
   ]
 }
