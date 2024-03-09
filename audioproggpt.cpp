@@ -2,7 +2,13 @@
 #include <vector>
 #include <string>
 #include <cmath>
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics.hpp>    // Include the SFML graphics header for drawing shapes and text
+#include <SFML/Window.hpp>
+#include <SFML/System.hpp>
+#include <SFML/Audio.hpp>
+#include <SFML/Network.hpp>
+#include <SFML/OpenGL.hpp>
+#include <SFML/Audio/SoundBuffer.hpp>
 
 // Function to select ASIO driver
 void selectASIODriver(const std::string& driverName) {
@@ -50,6 +56,13 @@ int main() {
     // ...
 
     // Create SFML text for audio panel button
+    #include <SFML/Graphics/Font.hpp> // Include the SFML font header
+
+    // Load the font from a file
+    // Declare and initialize audioPanelButton
+    sf::Font font; // Declare the font variable
+    font.loadFromFile("path/to/font.ttf"); // Load the font from a file
+
     sf::Text audioPanelButton;
     audioPanelButton.setFont(font);
     audioPanelButton.setCharacterSize(24);
@@ -88,15 +101,25 @@ int main() {
     while (window.isOpen()) {
         // ...
 
+        // Handle events
+        sf::Event event;
+        while (window.pollEvent(event)) {
+        // Handle window close event
+        if (event.type == sf::Event::Closed) {
+            window.close();
+        }
         // Handle button click event
         else if (event.type == sf::Event::MouseButtonPressed) {
+            // Add your statement or code block here
+        }
+            // Add your statement here
             if (event.mouseButton.button == sf::Mouse::Left) {
                 sf::Vector2i mousePosition = sf::Mouse::getPosition(window);
                 if (audioPanelButton.getGlobalBounds().contains(mousePosition.x, mousePosition.y)) {
                     // Open audio panel to select ASIO driver, input channel, and output channel
                     std::string selectedDriver = "ASIO Driver"; // Replace with actual driver selection logic
-                    int selectedInputChannel = std::stoi(inputChannelSelection.getString());
-                    int selectedOutputChannel = std::stoi(outputChannelSelection.getString());
+                    int selectedInputChannel = std::atoi(inputChannelSelection.getString().toAnsiString().c_str());
+                    int selectedOutputChannel = std::atoi(outputChannelSelection.getString().toAnsiString().c_str());
                     selectASIODriver(selectedDriver);
                     selectInputChannel(selectedInputChannel);
                     selectOutputChannel(selectedOutputChannel);
@@ -131,12 +154,12 @@ int main() {
 }
 
 // Function to select ASIO driver
-void selectASIODriver(const std::string& driverName) {
+/* void selectASIODriver(const std::string& driverName) {
     // TODO: Implement driver selection logic
     std::cout << "Selected ASIO driver: " << driverName << std::endl;
-}
+} */
 
-int main() {
+/* int main2() {
     // Initialize input, output, and gain variables
     float input = 0.0f;
     float output = 0.0f;
@@ -146,6 +169,9 @@ int main() {
     sf::RenderWindow window(sf::VideoMode(800, 600), "Audio Program");
 
     // Create SFML text for gain label
+    // ...
+
+    // Create SFML text for gain value label
     // ...
 
     // Create SFML rectangle shape for gain knob
@@ -164,16 +190,32 @@ int main() {
     // ...
 
     // Create SFML text for audio panel button
+    // Define the font
+    sf::Font font;
+
+    // Load the font from a file
+    // Declare and initialize audioPanelButton
     sf::Text audioPanelButton;
+
+    if (!font.loadFromFile("path/to/font.ttf")) {
+        // Handle font loading error
+    }
+
+    // Set the font of the audioPanelButton
     audioPanelButton.setFont(font);
-    audioPanelButton.setCharacterSize(24);
-    audioPanelButton.setString("AUDIO PANEL");
     audioPanelButton.setPosition(20, 300);
 
     // Main program loop
     while (window.isOpen()) {
         // ...
 
+        // Handle events
+        sf::Event event;
+        while (window.pollEvent(event)) {
+        // Handle window close event
+        if (event.type == sf::Event::Closed) {
+            window.close();
+        }
         // Handle button click event
         else if (event.type == sf::Event::MouseButtonPressed) {
             if (event.mouseButton.button == sf::Mouse::Left) {
@@ -202,11 +244,11 @@ int main() {
 
 
 // Function to process audio data with gain
-float processAudio(float input, float gain) {
+float processAudio(float input, float gain) ; {
     return input * gain;
 }
 
-int main() {
+int main3() ; {
     // Initialize input, output, and gain variables
     float input = 0.0f;
     float output = 0.0f;
@@ -311,4 +353,4 @@ int main() {
     }
 
     return 0;
-}
+} */

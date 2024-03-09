@@ -4,18 +4,15 @@
       "name": "windows-clang-x64",
       "includePath": [
         "${workspaceFolder}/**",
-        "C://Users//ripfa//Documents//GitCollab//GitHubHubers//testingut4//SFML//include"
+        "SFML/include/**"
       ],
-      "defines": [
-        "_DEBUG",
-        "UNICODE",
-        "_UNICODE"
-      ],
-      "windowsSdkVersion": "10.0.17763.0",
-    "compilerPath": "C://Program Files (x86)//Microsoft Visual Studio//2022//Community//VC//Tools\\MSVC//{version}//bin//Hostx64//x64//cl.exe",
+      "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\Llvm\\x64\\bin\\clang.exe",
       "cStandard": "c11",
       "cppStandard": "c++17",
-    "intelliSenseMode": "msvc-x64"
+      "intelliSenseMode": "windows-clang-x64",
+      "compilerArgs": [
+        ""
+      ]
     }
   ],
   "version": 4
