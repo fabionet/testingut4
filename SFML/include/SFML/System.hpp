@@ -29,24 +29,24 @@
 // Headers
 ////////////////////////////////////////////////////////////
 
-#include <SFML/Config.hpp>
-#include <SFML/System/Clock.hpp>
-#include <SFML/System/Err.hpp>
-#include <SFML/System/FileInputStream.hpp>
-#include <SFML/System/InputStream.hpp>
-#include <SFML/System/Lock.hpp>
-#include <SFML/System/MemoryInputStream.hpp>
-#include <SFML/System/Mutex.hpp>
-#include <SFML/System/NonCopyable.hpp>
-#include <SFML/System/Sleep.hpp>
-#include <SFML/System/String.hpp>
-#include <SFML/System/Thread.hpp>
-#include <SFML/System/ThreadLocal.hpp>
-#include <SFML/System/ThreadLocalPtr.hpp>
-#include <SFML/System/Time.hpp>
-#include <SFML/System/Utf.hpp>
-#include <SFML/System/Vector2.hpp>
-#include <SFML/System/Vector3.hpp>
+#include "SFML/include/SFML/System.hpp"
+#include "SFML/include/SFML/System/Clock.hpp"
+#include "SFML/include/SFML/System/Err.hpp"
+#include "SFML/include/SFML/System/FileInputStream.hpp"
+#include "SFML/include/SFML/System/InputStream.hpp"
+#include "SFML/include/SFML/System/Lock.hpp"
+#include "SFML/include/SFML/System/MemoryInputStream.hpp"
+#include "SFML/include/SFML/System/Mutex.hpp"
+#include "SFML/include/SFML/System/NonCopyable.hpp"
+#include "SFML/include/SFML/System/Sleep.hpp"
+#include "SFML/include/SFML/System/String.hpp"
+#include "SFML/include/SFML/System/Thread.hpp"
+#include "SFML/include/SFML/System/ThreadLocal.hpp"
+#include "SFML/include/SFML/System/ThreadLocalPtr.hpp"
+#include "SFML/include/SFML/System/Time.hpp"
+#include "SFML/include/SFML/System/Utf.hpp"
+#include "SFML/include/SFML/System/Vector2.hpp"
+#include "SFML/include/SFML/System/Vector3.hpp"
 
 #endif // SFML_SYSTEM_HPP
 

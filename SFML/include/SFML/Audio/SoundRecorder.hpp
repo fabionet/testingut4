@@ -28,10 +28,10 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <SFML/Audio/Export.hpp>
-#include <SFML/Audio/AlResource.hpp>
-#include <SFML/System/Thread.hpp>
-#include <SFML/System/Time.hpp>
+#include "SFML/include/SFML/Audio/Export.hpp"
+#include "SFML/include/SFML/Audio/AlResource.hpp"
+#include "SFML/include/SFML/System/Thread.hpp"
+#include "SFML/include/SFML/System/Time.hpp"
 #include <vector>
 #include <string>
 

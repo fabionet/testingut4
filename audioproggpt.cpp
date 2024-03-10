@@ -6,31 +6,30 @@
 #include "SFML/include/SFML/Window.hpp"                         // Include the SFML window header for creating windows
 #include "SFML/include/SFML/System.hpp"                         // Include the SFML system header for time-related functions
 #include "SFML/include/SFML/Audio.hpp"                          // Include the SFML audio header for audio
-#include "SFML/include/SFML/Network.hpp"                        // Include the SFML network header for network
-#include "SFML/include/SFML/OpenGL.hpp"                         // Include the SFML OpenGL header for OpenGL
+// #include "SFML/include/SFML/Network.hpp"                        // Include the SFML network header for network
+// #include "SFML/include/SFML/OpenGL.hpp"                         // Include the SFML OpenGL header for OpenGL
 #include "SFML/include/SFML/Audio/SoundBuffer.hpp"              // Include the SFML audio header for audio
 #include "SFML/include/SFML/Audio/Sound.hpp"                    // Include the SFML audio header for audio
+#include "SFML/include/SFML/Graphics/Font.hpp"                  // Include the SFML graphics header for drawing shapes and text
 
+// Function to select ASIO driver ----------------------------------------------------------------
 
-// Function to select ASIO driver
-
-void selectASIODriver(const std::string& driverName) {
-    // TODO: Implement driver selection logic
-    std::cout << "Selected ASIO driver: " << driverName << std::endl;
-}
+    void selectASIODriver(const std::string& driverName)  {
+        // TODO: Implement driver selection logic
+        std::cout << "Selected ASIO driver: " << driverName << std::endl;
+    }
 
 // Function to select input channel
-void selectInputChannel(int channel) {
-    // TODO: Implement input channel selection logic
-    std::cout << "Selected input channel: " << channel << std::endl;
-}
+    void selectInputChannel(int channel)  {
+        // TODO: Implement input channel selection logic
+        std::cout << "Selected input channel: " << channel << std::endl;
+    }
 
 // Function to select output channel
-void selectOutputChannel(int channel) {
-    // TODO: Implement output channel selection logic
-    std::cout << "Selected output channel: " << channel << std::endl;
-}
-
+    void selectOutputChannel(int channel)  {
+        // TODO: Implement output channel selection logic
+        std::cout << "Selected output channel: " << channel << std::endl;
+    }
 int main() {
     // Initialize input, output, and gain variables
     float input = 0.0f;
@@ -59,7 +58,7 @@ int main() {
     // ...
 
     // Create SFML text for audio panel button
-    #include <SFML/Graphics/Font.hpp> // Include the SFML font header
+    // Include the SFML font header
 
     // Load the font from a file
     // Declare and initialize audioPanelButton

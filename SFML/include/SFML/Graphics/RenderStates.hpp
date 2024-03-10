@@ -28,9 +28,9 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include <SFML/Graphics/Export.hpp>
-#include <SFML/Graphics/BlendMode.hpp>
-#include <SFML/Graphics/Transform.hpp>
+#include "SFML/include/SFML/Graphics/Export.hpp"
+#include "SFML/include/SFML/Graphics/BlendMode.hpp"
+#include "SFML/include/SFML/Graphics/Transform.hpp"
 
 
 namespace sf
