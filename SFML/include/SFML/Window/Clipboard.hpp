@@ -28,8 +28,8 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include "SFML/include/SFML/Window/Export.hpp"
-#include "SFML/include/SFML/System/String.hpp"
+#include <SFML/Window/Export.hpp>
+#include <SFML/System/String.hpp>
 
 
 namespace sf

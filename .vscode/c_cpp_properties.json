@@ -1,22 +1,22 @@
 {
-  "configurations": [
-    {
-      "name": "windows-clang-x64",
-      "includePath": [
-        "${workspaceFolder}/**",
-        "SFML/include/**",
-        "SFML/include/SFML/**",
-        "SFML/lib/**",
-        "SFML/bin/**"
-      ],
-      "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/Llvm/x64/bin/clang.exe",
-      "cStandard": "c11",
-      "cppStandard": "c++23",
-      "intelliSenseMode": "windows-clang-x64",
-      "compilerArgs": [
-        "-IO"
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "windows-clang-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/SFML/include/SFML/**",
+                "/SFML/lib/**",
+                "/SFML/include/**"
+            ],
+            "compilerPath": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/Llvm/x64/bin/clang.exe",
+            "cStandard": "c23",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "windows-clang-x64",
+            "compilerArgs": [
+                ""
+            ],
+            "compileCommands": ""
+        }
+    ],
+    "version": 4
 }

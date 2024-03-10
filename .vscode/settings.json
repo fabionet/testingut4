@@ -35,14 +35,14 @@
   ],
   "C_Cpp_Runner.enableWarnings": true,
   "C_Cpp_Runner.warningsAsError": false,
-  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.compilerArgs": ["-IO"],
   "C_Cpp_Runner.linkerArgs": [
     "${workspaceFolder}/**",
-    "c://Program Files/SFML/lib/**"
+    "C://Program Files/SFML/lib/**"
   ],
   "C_Cpp_Runner.includePaths": [
     "${workspaceFolder}/**",
-    "c://Program Files/SFML/include/**"
+    "C://Program Files/SFML/include/**"
   ],
   "C_Cpp_Runner.includeSearch": [
     "*",

@@ -28,8 +28,8 @@
 ////////////////////////////////////////////////////////////
 // Headers
 ////////////////////////////////////////////////////////////
-#include "SFML/include/SFML/Audio/Export.hpp"
-#include "SFML/include/SFML/System/Vector3.hpp"
+#include <SFML/Audio/Export.hpp>
+#include <SFML/System/Vector3.hpp>
 
 
 namespace sf
